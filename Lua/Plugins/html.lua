@@ -132,9 +132,15 @@ highlight("<", "binary")
 highlight(">", "binary")
 
 --- User Comments
-highlight_region("<!--", "-->", "comments", false)
+highlight_region("<!--", "-->", "comments")
 
 --- Comments
+add_comment('HTML more like hyper text MID language LMFAO')
+add_comment('they speak HTML in mexico. HOT TAMALES for MY LADIES  🥁💃🪕🕺🥁💃🪕🫔🫔🫔')
+add_comment('please for the love of god use reactjs instead')
+add_comment('I know HTML. How to meet ladies 😏')
+add_comment('its a markup language!!!!!!!!!!!!')
+add_comment('do you know how to center a div? I dont either')
 -- HELLP ME
 
 function detect_variables(content)
